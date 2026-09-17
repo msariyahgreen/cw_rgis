@@ -15,7 +15,7 @@ mtcars_cyl6 <- df_mtcars %>% filter(cyl==6)
 # Use `%in%` to filter the `df_mtcars` dataset for these two `gear` values.
 # Assign to: `mtcars_g35`
 mtcars_g35 <- df_mtcars %>%
-  filter(gear %in% c(3, 5))
+  filter(gear %in% c(3, 5)) 
 # 3. Filter rows where miles per gallon (`mpg`) is greater than 25
 # Create a subset of `df_mtcars` where `mpg > 25`.
 # Assign to: `mtcars_mpg25`
